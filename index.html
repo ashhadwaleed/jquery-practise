@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <span
+      class="toggle"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasExample"
+      aria-controls="offcanvasExample"
+      >☰ open</span
+    >
+
+    <div
+      class="offcanvas offcanvas-start bg-dark"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <ul class="sidebar-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Duration</a></li>
+          <li><a href="#">Details</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- end of sidebar -->
+    <div class="landing">
+      <div
+        class="landing-overlay d-flex justify-content-center align-items-center"
+      >
+        <div class="landing-text text-white text-center">
+          <h2 class="display-2 fw-semibold">Egyption Party</h2>
+          <p>Let's have Fun</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of landing page -->
+
+    <section id="singers" class="text-center m-auto">
+      <h3>Singer One</h3>
+      <div style="display: none">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+        excepturi ut! Ad officia debitis saepe voluptatibus repudiandae? Officia
+        id ad esse neque aliquam sint atque doloremque numquam alias! Fugiat,
+        cum.
+      </div>
+      <h3>Singer two</h3>
+      <div style="display: none">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+        excepturi ut! Ad officia debitis saepe voluptatibus repudiandae? Officia
+        id ad esse neque aliquam sint atque doloremque numquam alias! Fugiat,
+        cum.
+      </div>
+      <h3>Singer three</h3>
+      <div style="display: none">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+        excepturi ut! Ad officia debitis saepe voluptatibus repudiandae? Officia
+        id ad esse neque aliquam sint atque doloremque numquam alias! Fugiat,
+        cum.
+      </div>
+      <h3>Singer four</h3>
+      <div style="display: none">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+        excepturi ut! Ad officia debitis saepe voluptatibus repudiandae? Officia
+        id ad esse neque aliquam sint atque doloremque numquam alias! Fugiat,
+        cum.
+      </div>
+    </section>
+
+    <!-- end of singers section -->
+
+    <section id="countdown" class="text-center">
+      <div class="overlay">
+        <div class="container">
+            <div class="countDownTimer">
+                <div class="row">
+            <div class="col-md-3">
+              <span class="days"></span>
+            </div>
+            <div class="col-md-3">
+                <span class="hours"></span>
+            </div>
+            <div class="col-md-3">
+                <span class="minutes"></span>
+            </div>
+            <div class="col-md-3">
+                <span class="seconds"></span>
+            </div>
+          </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of the countdown section -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="join-us">
+              <h2 class="fw-bold h1 text-uppercase">join us</h2>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="contact-us">
+              <h6 class="text-uppercase fw-bold">CONTACT INFO</h6>
+              <p class="text-secondary">
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+            </div>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-baseline">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>New Street 22545, Nexa Road, New York City, USA</p>
+              </li>
+              <li class="d-flex align-items-baseline">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="mail">hello@uigrid.com</p>
+              </li>
+              <li class="d-flex align-items-baseline">
+                <i class="fa-solid fa-phone"></i>
+                <p>001-000-000-000</p>
+              </li>
+            </ul>
+            <div class="social-media text-secondary">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-dribbble"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form action="">
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Enter Name"
+              />
+              <input
+                type="email"
+                class="form-control mb-3"
+                name=""
+                id=""
+                placeholder="Enter Email"
+              />
+              <textarea
+                name=""
+                class="text-area form-control mb-3"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter Message"
+              ></textarea>
+              <span class="allowedNum">100</span>
+              Charachter Remaining
+              <button type="submit" class="d-block my-2 text-uppercase">
+                send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
+<!-- 
+type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" -->
+
+<!-- <span class="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">☰ open</span>
+
+<div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <ul class="sidebar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Duration</a></li>
+        <li><a href="#">Details</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+</div> -->

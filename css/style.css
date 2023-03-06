@@ -1,0 +1,152 @@
+a {
+    text-decoration: none;
+}
+
+span.toggle {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 999;
+}
+
+.sidebar-list {
+    list-style: none;
+}
+
+.sidebar-list li {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.sidebar-list li a {
+    color: white;
+}
+
+.sidebar-list li a:hover {
+    color: rgba(214, 46, 51, 0.6)
+}
+
+.btn-close {
+    display: flex;
+    align-self: flex-start;
+    background-color: white;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/events-heavenly-header.jpg");
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.landing-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#singers {
+    padding: 100px 0;
+    width: 50%;
+}
+
+#singers h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#singers div {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+footer {
+    padding: 100px 0;
+}
+
+footer .mail {
+    color: #D62E33;
+}
+
+footer ul {
+    color: #777;
+    font-weight: 600;
+}
+
+footer ul li i {
+    margin: 20px;
+}
+
+.social-media i {
+    border: 1px gray solid;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.social-media i:hover {
+    background-color: #D62E33;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: #999;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    color: #999;
+}
+
+form span {
+    color: #D62E33;
+    font-size: 20px;
+}
+
+button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: none;
+}
+
+#countdown {
+    background-image: url("../imgs/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    padding: 70px 0;
+}
+
+#countdown .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.countDownTimer span{
+    border: 1px white solid;
+    padding: 50px;
+    font-size: 20px;
+}
